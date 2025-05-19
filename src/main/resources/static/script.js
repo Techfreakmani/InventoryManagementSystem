@@ -21,7 +21,7 @@ function submitProduct() {
   formData.append("category", category);
   formData.append("image", imageFile);
 
-  fetch("http://localhost:8089/addProducts", {
+  fetch("http://localhost:9090/addProducts", {
     method: "POST",
     body: formData
   })
